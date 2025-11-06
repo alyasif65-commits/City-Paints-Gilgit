@@ -1,2 +1,116 @@
-# City-Paints-Gilgit
-gilgit baltistan best hardware and paint stor we hope you vist and enjoy shoping
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>City Paints, Machinery & Hardware Store Gilgit, Pakistan — Online</title>
+  <style>
+    :root{--accent:#0b76ef;--bg:#f6f8fb}
+    *{box-sizing:border-box}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;background:var(--bg);margin:0;color:#111}
+    header{background:white;padding:18px 20px;display:flex;align-items:center;justify-content:space-between;box-shadow:0 1px 6px rgba(15,15,15,0.06)}
+    .brand{font-weight:700;letter-spacing:0.6px}
+    .hero{padding:36px 20px;text-align:center}
+    .hero h1{margin:0;font-size:28px}
+    .hero p{color:#444;margin-top:8px}
+    .container{max-width:1000px;margin:22px auto;padding:0 16px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}
+    .card{background:white;border-radius:12px;padding:12px;box-shadow:0 6px 18px rgba(12,12,12,0.06);display:flex;flex-direction:column}
+    .card img{width:100%;height:180px;object-fit:cover;border-radius:8px}
+    .card h3{margin:10px 0 6px;font-size:16px}
+    .price{font-weight:700;margin-top:auto}
+    .btn{display:inline-block;padding:10px 12px;border-radius:10px;text-decoration:none;font-weight:600}
+    .buy{background:var(--accent);color:white}
+    .info{display:flex;gap:10px;align-items:center}
+    footer{margin-top:22px;padding:18px;text-align:center;color:#666;font-size:14px}
+    .top-actions{display:flex;gap:10px}
+    .whatsapp{background:#25D366;color:white}
+    @media (max-width:520px){.hero h1{font-size:22px}.card img{height:140px}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">City Paints, Machinery & Hardware Store Gilgit, Pakistan</div>
+    <div class="top-actions">
+      <a class="btn" href="#products">Products</a>
+      <a class="btn whatsapp" href="https://wa.me/923130885759?text=Hi%20I%20want%20to%20order" target="_blank">WhatsApp</a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to City Paints, Machinery & Hardware Store Gilgit, Pakistan</h1>
+    <p>All kinds of Paints, Tools & Hardware • Fast delivery across Gilgit • Call/WhatsApp to order</p>
+  </section>
+
+  <main class="container">
+    <section id="products">
+      <h2 style="margin:8px 0 12px">Featured Products</h2>
+      <div class="grid">
+        <!-- Product 1 -->
+        <article class="card">
+          <img src="https://cdn.pixabay.com/photo/2016/03/27/22/21/paint-1284485_1280.jpg" alt="Paint Products">
+          <h3>Paint Collection</h3>
+          <div class="info">
+            <div>High-quality paints for indoor and outdoor use.</div>
+            <div style="margin-left:auto" class="price">PKR 0</div>
+          </div>
+          <div style="margin-top:12px">
+            <a class="btn buy" href="https://wa.me/923130885759?text=I%20want%20to%20order%20Paint%20Collection" target="_blank">Buy / Order</a>
+          </div>
+        </article>
+
+        <!-- Product 2 -->
+        <article class="card">
+          <img src="https://cdn.pixabay.com/photo/2017/07/10/21/45/tools-2499758_1280.jpg" alt="Hardware Tools">
+          <h3>Hardware Tools</h3>
+          <div class="info">
+            <div>Durable tools and hardware supplies for all uses.</div>
+            <div style="margin-left:auto" class="price">PKR 0</div>
+          </div>
+          <div style="margin-top:12px">
+            <a class="btn buy" href="https://wa.me/923130885759?text=I%20want%20to%20order%20Hardware%20Tools" target="_blank">Buy / Order</a>
+          </div>
+        </article>
+
+        <!-- Product 3 -->
+        <article class="card">
+          <img src="https://cdn.pixabay.com/photo/2016/03/05/19/02/construction-1235726_1280.jpg" alt="Machinery">
+          <h3>Machinery & Equipment</h3>
+          <div class="info">
+            <div>Quality machinery and accessories for industrial and home projects.</div>
+            <div style="margin-left:auto" class="price">PKR 0</div>
+          </div>
+          <div style="margin-top:12px">
+            <a class="btn buy" href="https://wa.me/923130885759?text=I%20want%20to%20order%20Machinery%20and%20Equipment" target="_blank">Buy / Order</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section style="margin-top:20px">
+      <h2>Contact & Delivery</h2>
+      <p>Phone: <a href="tel:+923113386662">0311-3386662</a></p>
+      <p>WhatsApp: <a href="https://wa.me/923130885759" target="_blank">0313-0885759</a></p>
+      <p>Visit us in Gilgit for paints, hardware, and machinery tools. Orders and inquiries accepted via WhatsApp or call.</p>
+    </section>
+
+    <!-- Easypaisa Payment Section -->
+    <section style="margin-top:20px">
+      <h2>Easypaisa Payment</h2>
+      <p><strong>Account Name:</strong> Yousaf Ali</p>
+      <p><strong>Easypaisa Number:</strong> 0341-1506054</p>
+      <p>To make a payment, please send the amount to the above Easypaisa number and share your receipt on WhatsApp after sending.</p>
+      <a class="btn whatsapp" href="https://wa.me/923130885759?text=I%20have%20sent%20payment%20via%20Easypaisa" target="_blank">Confirm Payment on WhatsApp</a>
+    </section>
+
+  </main>
+
+  <footer>
+    © <span id="year"></span> City Paints, Machinery & Hardware Store Gilgit, Pakistan • Made with simple website template
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
